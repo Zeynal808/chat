@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local storage Todo list</title>
+  <link rel="stylesheet" href="./main.css">
+
+</head>
+
+<body>
+  <div class="sign-in">
+    <input type="text" placeholder="adinizi daxil edin" id="ad">
+    <br>
+    <input type="password" placeholder="sifrenizi daxil edin" id="sifre">
+    <button id="giris">Giris et</button>
+  </div>
+  <div class="message-box">
+    <h2>Welcome Our Message Site <span class="wName"></span></h2>
+    <div class="message">
+
+    </div>
+    <input type="text" placeholder="mesajinizi yazin" id="mesaj">
+    <button id="gonder">Gonder</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
